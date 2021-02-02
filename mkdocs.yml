@@ -1,0 +1,45 @@
+site_name: Bigwave AI Data Analytics(BADA)
+theme :
+  name : material
+  language: kr
+  palette:
+    primary: indigo
+
+nav :
+- Home : index.md
+- Usage Guide :
+  - File :
+    - File Upload : File Upload.md
+    - File Edit : File Edit.md
+  - Data :
+    - Data Profile : DataProfile.md
+    - Meta Data : MetaData.md
+  - Model :
+    - Model Summary : Model.md
+  - Auto Model :
+    - Auto Model Select : AutoModelSelect.md
+    - Auto Params Tuning : AutoModelTuning.md
+  - Simulation :
+    - Simulation & Optimization : simulation.md
+  - Ohters :
+    - Input Data Processing : InputDataProcessing.md
+- Technology :
+  - AutoML : AutoML.md
+  - XAI : XAI.md
+  #- Optimization : Tech_Optimization.md
+- Tutorial :
+  - Training Model in Python : Tuto_python.md
+#  - Training Model in BADA :
+
+
+markdown_extensions:
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_div_format
+
+extra_css:
+  - https://unpkg.com/mermaid@7.1.2/dist/mermaid.css
+extra_javascript:
+  - https://unpkg.com/mermaid@7.1.2/dist/mermaid.min.js

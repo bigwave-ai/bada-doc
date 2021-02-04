@@ -26,10 +26,8 @@ nav :
 - Technology :
   - AutoML : AutoML.md
   - XAI : XAI.md
-  #- Optimization : Tech_Optimization.md
 - Tutorial :
   - Training Model in Python : Tuto_python.md
-#  - Training Model in BADA :
 
 
 markdown_extensions:

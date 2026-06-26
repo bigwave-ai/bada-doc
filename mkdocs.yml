@@ -1,7 +1,7 @@
 site_name: Bigwave AI Data Analytics(BADA)
 theme :
   name : material
-  language: kr
+  language: ko
   palette:
     primary: indigo
 
